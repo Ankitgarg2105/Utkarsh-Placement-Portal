@@ -28,7 +28,7 @@ export default function Section2(props: SectionProps) {
             By checking this box, you agree to our{" "}
             <Link
               className="underline"
-              href="https://utkarsh-resume.buddylonglegs.tech/Terms%20and%20Conditions.pdf"
+              href="#"
               target="_blank"
             >
               terms and conditions
@@ -51,7 +51,7 @@ export default function Section2(props: SectionProps) {
             By checking this box, you agree to all{" "}
             <Link
               className="underline"
-              href="https://utkarsh-resume.buddylonglegs.tech/Mutual%20NDA.pdf"
+              href="#"
               target="_blank"
             >
               NDAs

@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image: buddylonglegs/utkarsh-webapp:latest
+    image: ankitgarg2105/utkarsh-webapp:latest
     restart: always
     command: sh -c "npm run db:seed && npm run start"
     # command: sh -c "npm run dev" # <-- use this command for testing/db:push

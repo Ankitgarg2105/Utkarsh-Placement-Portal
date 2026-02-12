@@ -28,7 +28,7 @@ export const env = createEnv({
         // VERCEL_URL doesn't include `https` so it cant be validated as a URL
         process.env.VERCEL ? z.string() : z.string().url(),
       )
-      .default("https://utkarsh.buddylonglegs.tech"),
+      .default("http://localhost:3000"),
     AVIRAL_SESSION: z.string().optional(),
     USE_AVIRAL: z.string(),
     S3_ENDPOINT: z.string(),
